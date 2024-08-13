@@ -1,0 +1,57 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+  margin: 10px;
+}
+
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+.Page_title {
+  color: orange;
+  margin-bottom: 20px;
+}
+.Posts {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+  border: 1px solid gray;
+  margin: 5px;
+  padding: 10px;
+  border-radius: 10px;
+  box-shadow: 10px 5px rgb(158, 150, 150);
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+a:hover {
+  text-decoration: underline;
+  color: rgb(255, 0, 170);
+}
+.Posts_Inactive {
+  cursor-events: none;
+  cursor: default;
+}
+.loading {
+  font-size: large;
+  font-weight: bolder;
+  color: rgb(110, 112, 102);
+}
+.loadMore {
+  border-radius: 6px;
+  color: rgb(87, 12, 58);
+  background-color: orange;
+  font-weight: bold;
+  margin-top: 6px;
+  padding: 8px;
+  border: none;
+  cursor: pointer;
+}
+
+.loadMore:hover {
+  color: rgb(59, 48, 219);
+}
